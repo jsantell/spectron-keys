@@ -17,7 +17,7 @@ describe("keys", function () {
   });
 
   describe("F1-F12", function () {
-    var keys = new Array(12).fill("F").map(function (k, i) { return k + (i + 1); });
+    var keys = ["F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10", "F11", "F12"];
     keys.forEach(function (key) {
       it(key, function () {
         expect(mapAccelerator("Alt+" + key).toString())
