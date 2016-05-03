@@ -1,0 +1,31 @@
+{
+  "name": "spectron-keys",
+  "version": "0.0.1",
+  "description": "Accelerator mappings for Electron commands to Spectron/WebDriver key codes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --ui bdd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsantell/spectron-keys.git"
+  },
+  "author": "Jordan Santell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsantell/spectron-keys/issues"
+  },
+  "homepage": "https://github.com/jsantell/spectron-keys",
+  "dependencies": {},
+  "keywords": [
+    "electron",
+    "spectron",
+    "webdriver",
+    "accelerator",
+    "testing"
+  ],
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}

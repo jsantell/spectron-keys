@@ -1,0 +1,9 @@
+{
+  "Cmd": "Command",
+  "Ctrl": "Control",
+  "CmdOrCtrl": "CommandOrControl",
+  "Enter": "Return",
+  "Esc": "Escape",
+  "Meta": "Command",
+  "Super": "Command"
+}
